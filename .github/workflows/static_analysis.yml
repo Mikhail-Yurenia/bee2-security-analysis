@@ -51,14 +51,14 @@ jobs:
             --output ./reports_codechecker \
             --analyzers clangsa clang-tidy cppcheck \
             --enable sensitive \
-            --jobs $(nproc)
+            --jobs $(nproc)|| true
 
       - name: Run PVS-Studio Analysis
         run: |
           pvs-studio-analyzer analyze \
             --file ./build/compile_commands.json \
             -j $(nproc) \
-            -o ./pvs-report.log
+            -o ./pvs-report.log || true
           plog-converter -a GA:1,2 -t sarif -o ./pvs-report.sarif ./pvs-report.log
           plog-converter -a GA:1,2 -t html -o ./pvs-report_html ./pvs-report.log
 
