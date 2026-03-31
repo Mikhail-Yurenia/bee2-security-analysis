@@ -1,0 +1,265 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/math/zm.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/obj.h'
+      FileOffset:      634
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/word.h'
+      FileOffset:      628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/qr.h'
+      FileOffset:      623
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/zz.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stack'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      851
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stack'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      998
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stack'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      3405
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stack'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      6213
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      6361
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      6361
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''ASSERT'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+        FileOffset:      2314
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+            FileOffset:      2314
+            Length:          1
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      6361
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            Offset:          6361
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''ASSERT'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+        FileOffset:      2314
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+            FileOffset:      2314
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      17169
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17169
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            FileOffset:      17169
+            Length:          11
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17169
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            Offset:          17169
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            FileOffset:      17169
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         repeated branch in conditional chain
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      17184
+      Replacements:    []
+    Notes:
+      - Message:         end of the original
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17216
+        Replacements:    []
+      - Message:         clone 1 starts here
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17708
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      17313
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17313
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            FileOffset:      17313
+            Length:          11
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17313
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            Offset:          17313
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            FileOffset:      17313
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+      FileOffset:      17607
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17607
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            FileOffset:      17607
+            Length:          11
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+        FileOffset:      17607
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            Offset:          17607
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/math/zm.c'
+            FileOffset:      17607
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

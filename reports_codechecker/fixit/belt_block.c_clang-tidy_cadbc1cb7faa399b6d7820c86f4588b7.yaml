@@ -1,0 +1,314 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u32.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+      FileOffset:      12370
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      12370
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          7
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      12370
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+      FileOffset:      12617
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      12617
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          7
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      12617
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+      FileOffset:      12771
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      12771
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          7
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      12771
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+      FileOffset:      13305
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      13305
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          7
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      13305
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+      FileOffset:      13552
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      13552
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          7
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      13552
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+      FileOffset:      13706
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      13706
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          7
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      13706
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''beltHPrefetch'''
+        FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+        FileOffset:      7709
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/belt/belt_block.c'
+            FileOffset:      7709
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

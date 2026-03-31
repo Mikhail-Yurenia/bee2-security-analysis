@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>cppcheck version 2.7</string>
+ <key>files</key>
+ <array>
+  <string>/home/mikhail/bee2/src/core/file.c</string>
+  <string>/home/mikhail/bee2/include/bee2/core/err.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/file.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/mem.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/str.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/util.h</string>
+  <string>/home/mikhail/bee2/include/bee2/defs.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/safe.h</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+ </array>
+</dict>
+</plist>

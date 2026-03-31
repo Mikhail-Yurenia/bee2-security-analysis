@@ -1,0 +1,128 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/core/oid_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/hex.h'
+      FileOffset:      651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/oid.h'
+      FileOffset:      649
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+      FileOffset:      604
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '1st argument ''str'' (passed to ''str1'') looks like it might be swapped with the 2nd, ''str1'' (passed to ''str2'')'
+      FilePath:        '/home/mikhail/bee2/test/core/oid_test.c'
+      FileOffset:      3198
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''strEq'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+        FileOffset:      3019
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      3026
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      3032
+            Length:          4
+      - Message:         'in the call to ''strCmp'', declared here'
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+        FileOffset:      2697
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      2718
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      2776
+            Length:          4
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '1st argument ''str'' (passed to ''str1'') looks like it might be swapped with the 2nd, ''str1'' (passed to ''str2'')'
+      FilePath:        '/home/mikhail/bee2/test/core/oid_test.c'
+      FileOffset:      3406
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''strEq'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+        FileOffset:      3019
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      3026
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      3032
+            Length:          4
+      - Message:         'in the call to ''strCmp'', declared here'
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+        FileOffset:      2697
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      2718
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+            FileOffset:      2776
+            Length:          4
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

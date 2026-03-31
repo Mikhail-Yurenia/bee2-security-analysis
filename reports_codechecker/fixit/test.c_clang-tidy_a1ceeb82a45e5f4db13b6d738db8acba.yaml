@@ -1,0 +1,12 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

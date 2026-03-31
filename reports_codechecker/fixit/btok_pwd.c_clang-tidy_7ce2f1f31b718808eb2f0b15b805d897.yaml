@@ -1,0 +1,68 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/crypto/btok/btok_pwd.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/apdu.h'
+      FileOffset:      679
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bake.h'
+      FileOffset:      699
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bign.h'
+      FileOffset:      698
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/btok.h'
+      FileOffset:      441
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

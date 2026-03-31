@@ -1,0 +1,56 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/core/mt.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mt.h'
+      FileOffset:      773
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  cert-dcl16-c
+    DiagnosticMessage:
+      Message:         'integer literal has suffix ''l'', which is not uppercase'
+      FilePath:        '/home/mikhail/bee2/src/core/mt.c'
+      FileOffset:      2790
+      Replacements:
+        - FilePath:        '/home/mikhail/bee2/src/core/mt.c'
+          Offset:          2800
+          Length:          1
+          ReplacementText: L
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

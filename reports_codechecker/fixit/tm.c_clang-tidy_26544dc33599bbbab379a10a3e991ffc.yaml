@@ -1,0 +1,92 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/core/tm.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mt.h'
+      FileOffset:      773
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/tm.h'
+      FileOffset:      625
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_freq'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+      FileOffset:      1460
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_once'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+      FileOffset:      1701
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+      FileOffset:      5412
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+          FileOffset:      5404
+          Length:          26
+        - FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+          FileOffset:      5401
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+        FileOffset:      5412
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/tm.c'
+            FileOffset:      5404
+            Length:          26
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

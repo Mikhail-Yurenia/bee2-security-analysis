@@ -1,0 +1,268 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/core/mem.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/word.h'
+      FileOffset:      628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '1st argument ''buf2'' (passed to ''buf1'') looks like it might be swapped with the 3rd, ''buf3'' (passed to ''buf2'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      10954
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      10969
+          Length:          4
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      10983
+          Length:          4
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint2'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10422
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10449
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10483
+            Length:          4
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '2nd argument ''count2'' (passed to ''count1'') looks like it might be swapped with the 4th, ''count3'' (passed to ''count2'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      10954
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      10975
+          Length:          6
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      10989
+          Length:          6
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint2'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10422
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10462
+            Length:          6
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10496
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '1st argument ''buf2'' (passed to ''buf1'') looks like it might be swapped with the 3rd, ''buf3'' (passed to ''buf2'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      11312
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11327
+          Length:          4
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11341
+          Length:          4
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint3'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10732
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10759
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10793
+            Length:          4
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '2nd argument ''count2'' (passed to ''count1'') looks like it might be swapped with the 4th, ''count3'' (passed to ''count2'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      11312
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11333
+          Length:          6
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11347
+          Length:          6
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint3'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10732
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10772
+            Length:          6
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10806
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '3rd argument ''buf3'' (passed to ''buf2'') looks like it might be swapped with the 5th, ''buf4'' (passed to ''buf3'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      11312
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11341
+          Length:          4
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11355
+          Length:          4
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint3'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10732
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10793
+            Length:          4
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10827
+            Length:          4
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '4th argument ''count3'' (passed to ''count2'') looks like it might be swapped with the 6th, ''count4'' (passed to ''count3'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      11312
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11347
+          Length:          6
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11361
+          Length:          6
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint3'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10732
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10806
+            Length:          6
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10840
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '2nd argument ''count2'' (passed to ''count1'') looks like it might be swapped with the 4th, ''count1'' (passed to ''count2'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      11763
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11801
+          Length:          6
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11815
+          Length:          6
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint2'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10422
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10462
+            Length:          6
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10496
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '2nd argument ''count2'' (passed to ''count1'') looks like it might be swapped with the 4th, ''count1'' (passed to ''count2'')'
+      FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+      FileOffset:      11919
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11940
+          Length:          6
+        - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+          FileOffset:      11954
+          Length:          6
+    Notes:
+      - Message:         'in the call to ''memIsDisjoint2'', declared here'
+        FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+        FileOffset:      10422
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10462
+            Length:          6
+          - FilePath:        '/home/mikhail/bee2/src/core/mem.c'
+            FileOffset:      10496
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

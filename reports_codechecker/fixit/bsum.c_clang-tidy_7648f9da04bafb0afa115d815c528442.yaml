@@ -1,0 +1,411 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/cmd/bsum/bsum.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      2680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_descr'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      2716
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      8106
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+          FileOffset:      8106
+          Length:          229
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+        FileOffset:      8106
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      8355
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+          FileOffset:      8355
+          Length:          187
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+        FileOffset:      8355
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      8563
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+          FileOffset:      8563
+          Length:          175
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+        FileOffset:      8563
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      10621
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+          FileOffset:      10615
+          Length:          18
+        - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+          FileOffset:      10612
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+        FileOffset:      10621
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+            Offset:          10615
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+            Offset:          10633
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+      FileOffset:      10687
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+          FileOffset:      10687
+          Length:          56
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/mikhail/bee2/cmd/bsum/bsum.c'
+        FileOffset:      10687
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+      FileOffset:      407
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''pwd'' declared with a const-qualified typedef; results in the type being ''char *const'' instead of ''const char *'''
+      FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+      FileOffset:      28456
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+        FileOffset:      27562
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''pwd'' declared with a const-qualified typedef; results in the type being ''char *const'' instead of ''const char *'''
+      FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+      FileOffset:      31098
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+        FileOffset:      27562
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''pwd'' declared with a const-qualified typedef; results in the type being ''char *const'' instead of ''const char *'''
+      FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+      FileOffset:      32390
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/cmd/include/bee2/cmd.h'
+        FileOffset:      27562
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/apdu.h'
+      FileOffset:      679
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      603
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      4214
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      5941
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''src'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      6617
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob1'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      6916
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob2'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      6973
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob1'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      7544
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob2'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      7601
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/dec.h'
+      FileOffset:      633
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/err.h'
+      FileOffset:      603
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/err.h'
+      FileOffset:      1530
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/file.h'
+      FileOffset:      638
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''file'' declared with a const-qualified typedef; results in the type being ''struct _IO_FILE *const'' instead of ''const struct _IO_FILE *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/file.h'
+      FileOffset:      4541
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/file.h'
+        FileOffset:      2508
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/hex.h'
+      FileOffset:      651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+      FileOffset:      604
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/tm.h'
+      FileOffset:      625
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bake.h'
+      FileOffset:      699
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bash.h'
+      FileOffset:      444
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/belt.h'
+      FileOffset:      692
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bign.h'
+      FileOffset:      698
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/btok.h'
+      FileOffset:      441
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+...

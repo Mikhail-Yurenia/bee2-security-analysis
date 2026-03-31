@@ -1,0 +1,916 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/crypto/bels_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/hex.h'
+      FileOffset:      651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/prng.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+      FileOffset:      604
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bels.h'
+      FileOffset:      677
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/belt.h'
+      FileOffset:      692
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      5200
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5190
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5184
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      5200
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5190
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5252
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      5269
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5259
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5253
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      5269
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5259
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5343
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      5360
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5350
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5344
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      5360
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5350
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5450
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      5633
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5623
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5617
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      5633
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5623
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5685
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      5702
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5692
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5686
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      5702
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5692
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5776
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      5793
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5783
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      5777
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      5793
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5783
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          5883
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      6074
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6064
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6058
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      6074
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6064
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6126
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      6143
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6133
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6127
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      6143
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6133
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6217
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      6234
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6224
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6218
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      6234
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6224
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6324
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      6516
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6506
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6500
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      6516
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6506
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6568
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      6585
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6575
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6569
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      6585
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6575
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6659
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      6676
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6666
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      6660
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      6676
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6666
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          6766
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      7129
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7119
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7113
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      7129
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7119
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7181
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      7198
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7188
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7182
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      7198
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7188
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7272
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      7289
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7279
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7273
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      7289
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7279
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7379
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      7570
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7560
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7554
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      7570
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7560
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7622
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      7639
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7629
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7623
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      7639
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7629
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7713
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      7730
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7720
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      7714
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      7730
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7720
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          7820
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      8171
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8161
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8155
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      8171
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8161
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8223
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      8240
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8230
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8224
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      8240
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8230
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8314
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      8331
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8321
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8315
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      8331
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8321
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8421
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      8612
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8602
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8596
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      8612
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8602
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8664
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      8681
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8671
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8665
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      8681
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8671
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8755
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      8772
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8762
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      8756
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      8772
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8762
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          8862
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      9233
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9223
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9217
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      9233
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9223
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9285
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      9302
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9292
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9286
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      9302
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9292
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9376
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      9393
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9383
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9377
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      9393
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9383
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9483
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      9674
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9664
+          Length:          62
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9658
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      9674
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9664
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9726
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      9743
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9733
+          Length:          84
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9727
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      9743
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9733
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9817
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+      FileOffset:      9834
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9824
+          Length:          100
+        - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+          FileOffset:      9818
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+        FileOffset:      9834
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9824
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bels_test.c'
+            Offset:          9924
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

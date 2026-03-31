@@ -1,0 +1,735 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/crypto/dstu.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      603
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      4214
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      5941
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''src'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      6617
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob1'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      6916
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob2'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      6973
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob1'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      7544
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  misc-misplaced-const
+    DiagnosticMessage:
+      Message:         '''blob2'' declared with a const-qualified typedef; results in the type being ''void *const'' instead of ''const void *'''
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+      FileOffset:      7601
+      Replacements:    []
+    Notes:
+      - Message:         typedef declared here
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/blob.h'
+        FileOffset:      2016
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/err.h'
+      FileOffset:      603
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/err.h'
+      FileOffset:      1530
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/obj.h'
+      FileOffset:      634
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+      FileOffset:      604
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/dstu.h'
+      FileOffset:      696
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+      FileOffset:      636
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ec2.h'
+      FileOffset:      697
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/gf2.h'
+      FileOffset:      623
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/qr.h'
+      FileOffset:      623
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/zz.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1005
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1120
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1153
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1319
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1485
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve163pb_P'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      1518
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve167pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2049
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve167pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2115
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve167pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2158
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve167pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2191
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve167pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2357
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve167pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2523
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve173pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2782
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve173pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2848
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve173pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2898
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve173pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      2931
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve173pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3103
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve173pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3275
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve179pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3534
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve179pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3600
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve179pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3649
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve179pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3682
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve179pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      3860
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve179pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4038
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve191pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4297
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve191pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4363
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve191pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve191pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4439
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve191pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4622
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve191pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      4806
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve233pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5065
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve233pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5131
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve233pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5180
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve233pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5213
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve233pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5434
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve233pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5655
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve257pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5914
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve257pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      5980
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve257pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6024
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve257pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6057
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve257pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6297
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve257pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6530
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve307pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6789
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve307pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6855
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve307pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6904
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve307pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      6937
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve307pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      7213
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve307pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      7489
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve367pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      7748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve367pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      7814
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve367pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      7858
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve367pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      7891
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve367pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      8210
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve367pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      8530
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve431pb_name'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      8789
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve431pb_p'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      8855
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve431pb_A'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      8904
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve431pb_B'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      8937
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve431pb_n'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      9305
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_curve431pb_c'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      9673
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      9929
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)''; pointer to aggregate'
+      FilePath:        '/home/mikhail/bee2/src/crypto/dstu.c'
+      FileOffset:      12918
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

@@ -1,0 +1,199 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/math/ww_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+      FileOffset:      3213
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''B_PER_W'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+        FileOffset:      14501
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+        FileOffset:      3213
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3213
+            Length:          0
+            ReplacementText: '(unsigned long)('
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3223
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''B_PER_W'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+        FileOffset:      14501
+        Replacements:    []
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+        FileOffset:      3213
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3213
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''B_PER_W'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+        FileOffset:      14501
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+            FileOffset:      14501
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+      FileOffset:      3252
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''B_PER_W'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+        FileOffset:      14501
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+        FileOffset:      3252
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3252
+            Length:          0
+            ReplacementText: '(unsigned long)('
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3262
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''B_PER_W'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+        FileOffset:      14501
+        Replacements:    []
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+        FileOffset:      3252
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3252
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''B_PER_W'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+        FileOffset:      14501
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+            FileOffset:      14501
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+      FileOffset:      3935
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+        FileOffset:      3935
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          453
+            Length:          0
+            ReplacementText: "#include <stddef.h>\n"
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3935
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3939
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            FileOffset:      3935
+            Length:          11
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+        FileOffset:      3935
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            Offset:          3935
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/ww_test.c'
+            FileOffset:      3935
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

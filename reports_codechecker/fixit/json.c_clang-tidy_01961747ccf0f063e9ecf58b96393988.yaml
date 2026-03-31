@@ -1,0 +1,157 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/core/json.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/hex.h'
+      FileOffset:      651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/json.h'
+      FileOffset:      643
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/str.h'
+      FileOffset:      604
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_max_depth'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/src/core/json.c'
+      FileOffset:      2679
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-conditional-uninitialized
+    DiagnosticMessage:
+      Message:         'variable ''c1'' may be uninitialized when used here'
+      FilePath:        '/home/mikhail/bee2/src/core/json.c'
+      FileOffset:      4370
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+          FileOffset:      4370
+          Length:          2
+    Notes:
+      - Message:         'initialize the variable ''c1'' to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/core/json.c'
+        FileOffset:      3939
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+            Offset:          3939
+            Length:          0
+            ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/core/json.c'
+      FileOffset:      5088
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+          FileOffset:      5072
+          Length:          29
+        - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+          FileOffset:      5069
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/core/json.c'
+        FileOffset:      5088
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+            Offset:          5072
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+            Offset:          5101
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-format-nonliteral
+    DiagnosticMessage:
+      Message:         format string is not a string literal
+      FilePath:        '/home/mikhail/bee2/src/core/json.c'
+      FileOffset:      14738
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+          FileOffset:      14738
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/core/json.c'
+      FileOffset:      14834
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+          FileOffset:      14829
+          Length:          25
+        - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+          FileOffset:      14826
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/core/json.c'
+        FileOffset:      14834
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+            Offset:          14829
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/json.c'
+            Offset:          14854
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

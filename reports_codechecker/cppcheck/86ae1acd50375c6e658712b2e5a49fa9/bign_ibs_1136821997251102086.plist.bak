@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>cppcheck version 2.7</string>
+ <key>files</key>
+ <array>
+  <string>/home/mikhail/bee2/src/crypto/bign/bign_ibs.c</string>
+  <string>/home/mikhail/bee2/include/bee2/core/blob.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/err.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/mem.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/oid.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/util.h</string>
+  <string>/home/mikhail/bee2/include/bee2/crypto/belt.h</string>
+  <string>/home/mikhail/bee2/include/bee2/crypto/bign.h</string>
+  <string>/home/mikhail/bee2/include/bee2/math/ecp.h</string>
+  <string>/home/mikhail/bee2/include/bee2/math/ww.h</string>
+  <string>/home/mikhail/bee2/include/bee2/math/zz.h</string>
+  <string>/home/mikhail/bee2/src/crypto/bign/bign_lcl.h</string>
+  <string>/home/mikhail/bee2/include/bee2/math/ec.h</string>
+  <string>/home/mikhail/bee2/include/bee2/math/qr.h</string>
+  <string>/home/mikhail/bee2/include/bee2/defs.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/obj.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/safe.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/u16.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/u32.h</string>
+  <string>/home/mikhail/bee2/include/bee2/core/u64.h</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+ </array>
+</dict>
+</plist>

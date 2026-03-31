@@ -1,0 +1,894 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/math/zz_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/prng.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/word.h'
+      FileOffset:      628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/zz.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      3395
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      3395
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          563
+            Length:          0
+            ReplacementText: "#include <stddef.h>\n"
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          3395
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          3399
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      3395
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      3395
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          3395
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      3395
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      3420
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      3420
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          3420
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          3424
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      3420
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      3420
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          3420
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      3420
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      12536
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12536
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12536
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12540
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12536
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12536
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12536
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12536
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      12632
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12632
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12632
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12636
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12632
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12632
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12632
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12632
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      12769
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12769
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12769
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12773
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12769
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12769
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12769
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12769
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      12920
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12920
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12920
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12924
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12920
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12920
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12920
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12920
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      12971
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12971
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12971
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12975
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12971
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      12971
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          12971
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      12971
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13189
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13189
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13189
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13193
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13189
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13189
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13189
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13189
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13443
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13443
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13443
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13447
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13443
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13443
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13443
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13443
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13494
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13494
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13494
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13498
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13494
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13494
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13494
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13494
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13621
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13621
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13621
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13625
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13621
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13621
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13621
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13621
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13755
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13755
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13755
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13759
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13755
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13755
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13755
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13755
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13779
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13779
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13779
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13783
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13779
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13779
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13779
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13779
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      13994
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13994
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13994
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13998
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13994
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      13994
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          13994
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      13994
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      14018
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      14018
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14018
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14022
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      14018
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      14018
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14018
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      14018
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      14611
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      14611
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14611
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14615
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      14611
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      14611
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14611
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      14611
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      14944
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      14944
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14944
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14948
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      14944
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      14944
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          14944
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      14944
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      15147
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15147
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15147
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15151
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15147
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15147
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15147
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15147
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      15239
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15239
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15239
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15243
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15239
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15239
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15239
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15239
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      15265
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15265
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15265
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15269
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15265
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15265
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15265
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15265
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      15396
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15396
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15396
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15400
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15396
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15396
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15396
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15396
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+      FileOffset:      15422
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15422
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15422
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15426
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15422
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+        FileOffset:      15422
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            Offset:          15422
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/math/zz_test.c'
+            FileOffset:      15422
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

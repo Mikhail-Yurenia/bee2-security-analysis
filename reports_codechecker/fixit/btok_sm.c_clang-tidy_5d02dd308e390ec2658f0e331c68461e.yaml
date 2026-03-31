@@ -1,0 +1,244 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/apdu.h'
+      FileOffset:      679
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/der.h'
+      FileOffset:      677
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/err.h'
+      FileOffset:      603
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/err.h'
+      FileOffset:      1530
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/belt.h'
+      FileOffset:      692
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+      FileOffset:      4030
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      4024
+          Length:          26
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      4021
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+        FileOffset:      4030
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          4024
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          4050
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+      FileOffset:      8564
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      8558
+          Length:          19
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      8555
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+        FileOffset:      8564
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          8558
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          8577
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+      FileOffset:      8589
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      8583
+          Length:          30
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      8578
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+        FileOffset:      8589
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          8583
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          8613
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+      FileOffset:      8626
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      8619
+          Length:          31
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      8614
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+        FileOffset:      8626
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          8619
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          8650
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+      FileOffset:      10399
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      10385
+          Length:          31
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      10417
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+        FileOffset:      10399
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          10385
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          10416
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+      FileOffset:      16330
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      16324
+          Length:          19
+        - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+          FileOffset:      16321
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+        FileOffset:      16330
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          16324
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/crypto/btok/btok_sm.c'
+            Offset:          16343
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

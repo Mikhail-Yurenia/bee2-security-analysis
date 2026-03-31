@@ -1,0 +1,11 @@
+Checks: >
+  -,
+  clang-analyzer-*,
+  bugprone-*,
+  cert-*,
+  performance-*,
+  portability-*,
+  readability-redundant-*,
+  -clang-analyzer-security.insecureAPI.strcpy,
+  -cert-err34-c
+WarningsAsErrors: '' HeaderFilterRegex: '.*'

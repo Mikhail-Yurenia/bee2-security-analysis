@@ -1,0 +1,242 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/core/u16.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u16.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+      FileOffset:      1601
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+          FileOffset:      1599
+          Length:          10
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1601
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1599
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1609
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1601
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1601
+            Length:          1
+            ReplacementText: '=='
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+      FileOffset:      1635
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+          FileOffset:      1633
+          Length:          10
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1635
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1633
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1643
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1635
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1635
+            Length:          1
+            ReplacementText: '=='
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+      FileOffset:      1669
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+          FileOffset:      1667
+          Length:          10
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1669
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1667
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1677
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1669
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1669
+            Length:          1
+            ReplacementText: '=='
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+      FileOffset:      1965
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+          FileOffset:      1963
+          Length:          10
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1965
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1963
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1973
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1965
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1965
+            Length:          1
+            ReplacementText: '=='
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+      FileOffset:      1999
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+          FileOffset:      1997
+          Length:          10
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1999
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1997
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          2007
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      1999
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          1999
+            Length:          1
+            ReplacementText: '=='
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+      FileOffset:      2033
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+          FileOffset:      2031
+          Length:          10
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      2033
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          2031
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          2041
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+        FileOffset:      2033
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/core/u16.c'
+            Offset:          2033
+            Length:          1
+            ReplacementText: '=='
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

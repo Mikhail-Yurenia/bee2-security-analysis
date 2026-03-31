@@ -1,0 +1,284 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/math/ww.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/word.h'
+      FileOffset:      628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2040
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2037
+          Length:          8
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2046
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2040
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2037
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2045
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2056
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2048
+          Length:          11
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2046
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2056
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2048
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2059
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2174
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2171
+          Length:          8
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2180
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2174
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2171
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2179
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2190
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2182
+          Length:          12
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2180
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2190
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2182
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2194
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2787
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2768
+          Length:          23
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2792
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2787
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2768
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2791
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2816
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2794
+          Length:          25
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2792
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2816
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2794
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2819
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2832
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2829
+          Length:          8
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2838
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2832
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2829
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2837
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-bitwise-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&'' within ''|'''
+      FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+      FileOffset:      2848
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2840
+          Length:          11
+        - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+          FileOffset:      2838
+          Length:          1
+    Notes:
+      - Message:         'place parentheses around the ''&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+        FileOffset:      2848
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2840
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/src/math/ww.c'
+            Offset:          2851
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

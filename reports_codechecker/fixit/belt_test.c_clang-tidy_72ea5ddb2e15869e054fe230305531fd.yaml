@@ -1,0 +1,503 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/crypto/belt_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/hex.h'
+      FileOffset:      651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u32.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/word.h'
+      FileOffset:      628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/belt.h'
+      FileOffset:      692
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_zerosum'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      2274
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_key'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      3351
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      22910
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      22910
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          552
+            Length:          0
+            ReplacementText: "#include <stddef.h>\n"
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          22910
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          22915
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      22910
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      22910
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          22910
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      22910
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      23029
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23029
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23029
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23034
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23029
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23029
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23029
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23029
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      23227
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23227
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23227
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23232
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23227
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23227
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23227
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23227
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      23346
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23346
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23346
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23351
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23346
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23346
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23346
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23346
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      23540
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23540
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23540
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23545
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23540
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23540
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23540
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23540
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      23662
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23662
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23662
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23667
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23662
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23662
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23662
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23662
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      23874
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23874
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23874
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23878
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23874
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      23874
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          23874
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      23874
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      24036
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24036
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24036
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24041
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24036
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24036
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24036
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24036
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      24225
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24225
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24225
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24230
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24225
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24225
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24225
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24225
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      24414
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24414
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24414
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24419
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24414
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24414
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24414
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24414
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+      FileOffset:      24605
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24605
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24605
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24609
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24605
+            Length:          5
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+        FileOffset:      24605
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            Offset:          24605
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/belt_test.c'
+            FileOffset:      24605
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

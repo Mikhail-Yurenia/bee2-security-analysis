@@ -1,0 +1,45 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/cmd/core/whereami.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/cmd/core/whereami.c'
+      FileOffset:      392
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/cmd/core/whereami.c'
+      FileOffset:      416
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  cert-err34-c
+    DiagnosticMessage:
+      Message:         '''sscanf'' used to convert a string to an unsigned integer value, but function will not report conversion errors; consider using ''strtoul'' instead'
+      FilePath:        '/home/mikhail/bee2/cmd/core/whereami.c'
+      FileOffset:      6098
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/mikhail/bee2/cmd/core/whereami.c'
+      FileOffset:      8368
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/cmd/core/whereami.c'
+          FileOffset:      8368
+          Length:          12
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/mikhail/bee2/cmd/core/whereami.c'
+        FileOffset:      8368
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/cmd'
+...

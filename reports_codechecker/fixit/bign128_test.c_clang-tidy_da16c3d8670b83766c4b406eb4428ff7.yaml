@@ -1,0 +1,117 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/crypto/bign128_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/hex.h'
+      FileOffset:      651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/belt.h'
+      FileOffset:      692
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bign.h'
+      FileOffset:      698
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/bign128.h'
+      FileOffset:      704
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/crypto/brng.h'
+      FileOffset:      696
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''size_t'' (aka ''unsigned long'') of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+      FileOffset:      2788
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+        FileOffset:      2788
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+            Offset:          550
+            Length:          0
+            ReplacementText: "#include <stddef.h>\n"
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+            Offset:          2788
+            Length:          0
+            ReplacementText: '(size_t)('
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+            Offset:          2792
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+            FileOffset:      2788
+            Length:          6
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+        FileOffset:      2788
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+            Offset:          2788
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/test/crypto/bign128_test.c'
+            FileOffset:      2788
+            Length:          1
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

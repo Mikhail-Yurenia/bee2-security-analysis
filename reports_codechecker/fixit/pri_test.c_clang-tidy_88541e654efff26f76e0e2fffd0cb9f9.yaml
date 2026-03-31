@@ -1,0 +1,149 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/math/pri_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/prng.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/word.h'
+      FileOffset:      628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/pri.h'
+      FileOffset:      616
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/zz.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-op-parentheses
+    DiagnosticMessage:
+      Message:         '''&&'' within ''||'''
+      FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+      FileOffset:      2948
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+          FileOffset:      2921
+          Length:          85
+        - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+          FileOffset:      2915
+          Length:          2
+    Notes:
+      - Message:         'place parentheses around the ''&&'' expression to silence this warning'
+        FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+        FileOffset:      2948
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+            Offset:          2921
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+            Offset:          3006
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-logical-not-parentheses
+    DiagnosticMessage:
+      Message:         logical not is only applied to the left hand side of this comparison
+      FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+      FileOffset:      5451
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+          FileOffset:      5488
+          Length:          2
+    Notes:
+      - Message:         'add parentheses after the ''!'' to evaluate the comparison first'
+        FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+        FileOffset:      5451
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+            Offset:          5452
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+            Offset:          5492
+            Length:          0
+            ReplacementText: ')'
+      - Message:         add parentheses around left hand side expression to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+        FileOffset:      5451
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+            Offset:          5451
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/home/mikhail/bee2/test/math/pri_test.c'
+            Offset:          5487
+            Length:          0
+            ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...

@@ -1,0 +1,272 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/mem.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/obj.h'
+      FileOffset:      634
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/safe.h'
+      FileOffset:      656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/u64.h'
+      FileOffset:      629
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+      FileOffset:      636
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ecp.h'
+      FileOffset:      694
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/gfp.h'
+      FileOffset:      620
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/qr.h'
+      FileOffset:      623
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/ww.h'
+      FileOffset:      637
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/math/zz.h'
+      FileOffset:      680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_lcl.h'
+      FileOffset:      452
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         conditional operator with identical true and false expressions
+      FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+      FileOffset:      10661
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''MIN2'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+        FileOffset:      4401
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         conditional operator with identical true and false expressions
+      FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+      FileOffset:      13006
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''MIN2'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+        FileOffset:      4401
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+      FileOffset:      13311
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ecPrePtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33832
+        Replacements:    []
+      - Message:         'expanded from macro ''ecPtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33774
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+        FileOffset:      13311
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''ecPrePtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33832
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33832
+            Length:          24
+      - Message:         'expanded from macro ''ecPtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33774
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33774
+            Length:          9
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+        FileOffset:      13311
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+            Offset:          13325
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''ecPrePtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33832
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33848
+            Length:          3
+      - Message:         'expanded from macro ''ecPtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33774
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33775
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''int'''
+      FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+      FileOffset:      13583
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ecPrePtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33832
+        Replacements:    []
+      - Message:         'expanded from macro ''ecPtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33774
+        Replacements:    []
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+        FileOffset:      13583
+        Replacements:    []
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''ecPrePtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33832
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33832
+            Length:          24
+      - Message:         'expanded from macro ''ecPtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33774
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33774
+            Length:          9
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+        FileOffset:      13583
+        Replacements:
+          - FilePath:        '/home/mikhail/bee2/src/math/ecp/ecp_pre.c'
+            Offset:          13597
+            Length:          0
+            ReplacementText: '(long)'
+        Ranges:
+          - FilePath:        ''
+            FileOffset:      0
+            Length:          0
+      - Message:         'expanded from macro ''ecPrePtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33832
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33848
+            Length:          3
+      - Message:         'expanded from macro ''ecPtA'''
+        FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+        FileOffset:      33774
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/mikhail/bee2/include/bee2/math/ec.h'
+            FileOffset:      33775
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/src'
+...

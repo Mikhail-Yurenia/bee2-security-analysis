@@ -1,0 +1,90 @@
+name: Static Analysis Pipeline
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  analyze:
+    name: Security & Reliability Check
+    runs-on: ubuntu-22.04
+    permissions:
+      security-events: write
+      contents: read
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies and analyzers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake gcc g++ clang clang-tidy cppcheck python3-pip
+          pip3 install codechecker
+          wget -q -O - https://files.pvs-studio.com/etc/pubkey.txt | sudo apt-key add -
+          sudo wget -O /etc/apt/sources.list.d/pvs-studio.list https://files.pvs-studio.com/etc/pvs-studio.list
+          sudo apt-get update
+          sudo apt-get install -y pvs-studio
+
+      - name: Configure PVS-Studio License
+        env:
+          PVS_KEY: ${{ secrets.PVS_STUDIO_KEY }}
+          PVS_USER: ${{ secrets.PVS_STUDIO_USERNAME }}
+        run: |
+          if [ -n "$PVS_KEY" ] && [ -n "$PVS_USER" ]; then
+            pvs-studio-analyzer credentials $PVS_USER $PVS_KEY
+          else
+            echo "::warning::PVS credentials not found. Analysis might fail."
+          fi
+
+      - name: Prepare Build & Compilation Database
+        run: |
+          mkdir build
+          cd build
+          cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
+
+      - name: Run CodeChecker Analysis
+        run: |
+          CodeChecker log --build "cd build && make -j$(nproc)" --output ./build/compile_commands.json
+          CodeChecker analyze ./build/compile_commands.json \
+            --output ./reports_codechecker \
+            --analyzers clangsa clang-tidy cppcheck \
+            --enable sensitive \
+            --jobs $(nproc)
+
+      - name: Run PVS-Studio Analysis
+        run: |
+          pvs-studio-analyzer analyze \
+            --file ./build/compile_commands.json \
+            -j $(nproc) \
+            -o ./pvs-report.log
+          plog-converter -a GA:1,2 -t sarif -o ./pvs-report.sarif ./pvs-report.log
+          plog-converter -a GA:1,2 -t html -o ./pvs-report_html ./pvs-report.log
+
+      - name: Convert CodeChecker to SARIF
+        run: |
+          CodeChecker parse ./reports_codechecker --export sarif --output ./codechecker.sarif
+
+      - name: Upload CodeChecker Results
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: ./codechecker.sarif
+          category: codechecker
+
+      - name: Upload PVS-Studio Results
+        if: hashFiles('./pvs-report.sarif') != ''
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: ./pvs-report.sarif
+          category: pvs-studio
+
+      - name: Upload HTML Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-reports
+          path: |
+            ./pvs-report_html
+            ./reports_codechecker

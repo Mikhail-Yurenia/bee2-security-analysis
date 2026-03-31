@@ -1,0 +1,45 @@
+---
+MainSourceFile:  '/home/mikhail/bee2/test/core/util_test.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/core/util.h'
+      FileOffset:      660
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/home/mikhail/bee2/include/bee2/defs.h'
+      FileOffset:      642
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/mikhail/bee2/test/core/util_test.c'
+      FileOffset:      734
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/mikhail/bee2/test/core/util_test.c'
+          FileOffset:      734
+          Length:          184
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/mikhail/bee2/test/core/util_test.c'
+        FileOffset:      734
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_ctr'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/home/mikhail/bee2/test/core/util_test.c'
+      FileOffset:      1224
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/mikhail/bee2/build/test'
+...
