@@ -24,10 +24,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y cmake gcc g++ clang clang-tidy cppcheck python3-pip
           pip3 install codechecker
-          wget -q -O - https://files.pvs-studio.com/etc/pubkey.txt | sudo apt-key add -
-          sudo wget -O /etc/apt/sources.list.d/pvs-studio.list https://files.pvs-studio.com/etc/pvs-studio.list
-          sudo apt-get update
-          sudo apt-get install -y pvs-studio
+           wget -q https://files.pvs-studio.com/pvs-studio-latest.deb
+          sudo apt-get install -y ./pvs-studio-latest.deb
 
       - name: Configure PVS-Studio License
         env:
