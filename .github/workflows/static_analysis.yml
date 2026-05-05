@@ -24,7 +24,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y cmake gcc g++ clang clang-tidy cppcheck python3-pip
           pip3 install codechecker
-           wget -q https://files.pvs-studio.com/pvs-studio-latest.deb
+          wget -q https://files.pvs-studio.com/pvs-studio-latest.deb
           sudo apt-get install -y ./pvs-studio-latest.deb
 
       - name: Configure PVS-Studio License
@@ -35,7 +35,7 @@ jobs:
           if [ -n "$PVS_KEY" ] && [ -n "$PVS_USER" ]; then
             pvs-studio-analyzer credentials $PVS_USER $PVS_KEY
           else
-            echo "::warning::PVS credentials not found. Analysis might fail."
+            echo "::warning::PVS credentials not found."
           fi
 
       - name: Prepare Build & Compilation Database
@@ -45,17 +45,17 @@ jobs:
           cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 
       - name: Run CodeChecker Analysis
-continue-on-error: true
+        continue-on-error: true
         run: |
           CodeChecker log --build "cd build && make -j$(nproc)" --output ./build/compile_commands.json
           CodeChecker analyze ./build/compile_commands.json \
             --output ./reports_codechecker \
             --analyzers clangsa clang-tidy cppcheck \
             --enable sensitive \
-            --jobs $(nproc)|| true
+            --jobs $(nproc) || true
 
       - name: Run PVS-Studio Analysis
-continue-on-error: true
+        continue-on-error: true
         run: |
           pvs-studio-analyzer analyze \
             --file ./build/compile_commands.json \
