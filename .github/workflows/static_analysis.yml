@@ -52,7 +52,7 @@ jobs:
             --output ./reports_codechecker \
             --analyzers clangsa clang-tidy cppcheck \
             --enable sensitive \
-            --jobs $(nproc) || true
+            --jobs $(nproc)
 
       - name: Run PVS-Studio Analysis
         continue-on-error: true
@@ -60,12 +60,12 @@ jobs:
           pvs-studio-analyzer analyze \
             --file ./build/compile_commands.json \
             -j $(nproc) \
-            -o ./pvs-report.log || true
+            -o ./pvs-report.log
           plog-converter -a GA:1,2 -t sarif -o ./pvs-report.sarif ./pvs-report.log
           plog-converter -a GA:1,2 -t html -o ./pvs-report_html ./pvs-report.log
 
       - name: Convert CodeChecker to SARIF
-         continue-on-error: true  
+        continue-on-error: true
         run: |
           CodeChecker parse ./reports_codechecker --export sarif --output ./codechecker.sarif
 
