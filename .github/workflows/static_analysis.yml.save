@@ -1,4 +1,4 @@
-name: Static Analysis Pipeline
+ъжname: Static Analysis Pipeline
 
 on:
   push:
@@ -24,8 +24,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y cmake gcc g++ clang clang-tidy cppcheck python3-pip
           pip3 install codechecker
-           wget -q https://files.pvs-studio.com/pvs-studio-latest.deb
-          sudo apt-get install -y ./pvs-studio-latest.deb
+          wget -q -O - https://files.pvs-studio.com/etc/pubkey.txt | sudo apt-key add -
+          sudo wget -O /etc/apt/sources.list.d/pvs-studio.list https://files.pvs-studio.com/etc/pvs-studio.list
+          sudo apt-get update
+          sudo apt-get install -y pvs-studio
 
       - name: Configure PVS-Studio License
         env:
@@ -45,22 +47,20 @@ jobs:
           cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 
       - name: Run CodeChecker Analysis
-continue-on-error: true
         run: |
           CodeChecker log --build "cd build && make -j$(nproc)" --output ./build/compile_commands.json
           CodeChecker analyze ./build/compile_commands.json \
             --output ./reports_codechecker \
             --analyzers clangsa clang-tidy cppcheck \
             --enable sensitive \
-            --jobs $(nproc)|| true
+            --jobs $(nproc)
 
       - name: Run PVS-Studio Analysis
-continue-on-error: true
         run: |
           pvs-studio-analyzer analyze \
             --file ./build/compile_commands.json \
             -j $(nproc) \
-            -o ./pvs-report.log || true
+            -o ./pvs-report.log
           plog-converter -a GA:1,2 -t sarif -o ./pvs-report.sarif ./pvs-report.log
           plog-converter -a GA:1,2 -t html -o ./pvs-report_html ./pvs-report.log
 

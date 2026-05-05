@@ -45,8 +45,8 @@ jobs:
           cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 
       - name: Run CodeChecker Analysis
-continue-on-error: true
-        run: |
+       
+ run: |
           CodeChecker log --build "cd build && make -j$(nproc)" --output ./build/compile_commands.json
           CodeChecker analyze ./build/compile_commands.json \
             --output ./reports_codechecker \
@@ -55,7 +55,6 @@ continue-on-error: true
             --jobs $(nproc)|| true
 
       - name: Run PVS-Studio Analysis
-continue-on-error: true
         run: |
           pvs-studio-analyzer analyze \
             --file ./build/compile_commands.json \
