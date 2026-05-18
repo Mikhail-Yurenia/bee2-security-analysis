@@ -29,6 +29,7 @@ jobs:
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
+        queries: security-extended
 
     # 2. Autobuild: CodeQL попытается сам скомпилировать проект.
     # Для Bee2 с его CMake это должно сработать автоматически.
