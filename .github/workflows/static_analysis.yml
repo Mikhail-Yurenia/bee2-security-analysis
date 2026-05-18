@@ -89,3 +89,26 @@ jobs:
           path: |
             ./pvs-report_html
             ./reports_codechecker
+
+
+      - name: Run CBMC Formal Verification
+        run: |
+          echo ">>> Installing CBMC..."
+          sudo apt-get install -y cbmc
+          
+          echo ">>> Running CBMC on zz_add function..."
+          cbmc --function main \
+               -I include \
+               --unwind 3 --unwinding-assertions \
+               --bounds-check --pointer-check \
+               --signed-overflow-check --unsigned-overflow-check \
+               proof_zz_add.c src/math/zz/zz_add.c > cbmc_report.txt
+          
+          echo ">>> CBMC verification result:"
+          cat cbmc_report.txt
+
+      - name: Upload CBMC Result
+        uses: actions/upload-artifact@v4
+        with:
+          name: cbmc-report
+          path: cbmc_report.txt
